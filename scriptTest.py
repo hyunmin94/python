@@ -3,6 +3,8 @@ from bs4 import BeautifulSoup
 import time
 import pandas as pd
 
+# chromedriver 버전과 Chrome 버전을 일치
+# 다운로드 URL : https://sites.google.com/a/chromium.org/chromedriver/home
 browser = webdriver.Chrome('C:/myPyCode/chromedriver.exe')
 url = 'https://www.starbucks.co.kr/store/store_map.do?disp=locale'
 
